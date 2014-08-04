@@ -49,7 +49,7 @@ module.exports = function (grunt) {
         }
       },
       coffee: {
-        files: '<%= coffee.compile.src %>',
+        files: '<%= coffee.compile.files %>',
         tasks: ['coffee']
       },
       jsTest: {

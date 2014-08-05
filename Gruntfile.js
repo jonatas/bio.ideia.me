@@ -30,7 +30,9 @@ module.exports = function (grunt) {
     coffee: {
       compile: {
         files : {
-          '<%= yeoman.app %>/scripts/app.js': '<%= yeoman.app %>/coffee/*.coffee'
+          '<%= yeoman.app %>/scripts/app.js': '<%= yeoman.app %>/coffee/app.coffee',
+          '<%= yeoman.app %>/scripts/controllers/main.js': '<%= yeoman.app %>/coffee/main_ctrl.coffee',
+          '<%= yeoman.app %>/scripts/controllers/about.js': '<%= yeoman.app %>/coffee/about_ctrl.coffee'
         }
       }
     },
@@ -67,12 +69,7 @@ module.exports = function (grunt) {
         options: {
           livereload: '<%= connect.options.livereload %>'
         },
-        files: [
-          '<%= yeoman.app %>/{,*/}*.html',
-          '<%= yeoman.app %>/scripts/*.{coffee,js}',
-          '.tmp/styles/{,*/}*.css',
-          '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
-        ]
+        files: ['<%= yeoman.app %>/**/*.{html,js,css,png,jpg,jpeg,gif,webp,svg}']
       }
     },
 
@@ -412,6 +409,7 @@ module.exports = function (grunt) {
 
     grunt.task.run([
       'clean:server',
+      'coffee',
       'wiredep',
       'concurrent:server',
       'autoprefixer',
@@ -452,7 +450,6 @@ module.exports = function (grunt) {
 
   grunt.registerTask('default', [
     'newer:jshint',
-    'coffee',
     'test',
     'build'
   ]);

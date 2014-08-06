@@ -31,8 +31,8 @@ module.exports = function (grunt) {
       compile: {
         files : {
           '<%= yeoman.app %>/scripts/app.js': '<%= yeoman.app %>/coffee/app.coffee',
-          '<%= yeoman.app %>/scripts/controllers/main.js': '<%= yeoman.app %>/coffee/main_ctrl.coffee',
-          '<%= yeoman.app %>/scripts/controllers/about.js': '<%= yeoman.app %>/coffee/about_ctrl.coffee'
+          '<%= yeoman.app %>/scripts/tania.js': '<%= yeoman.app %>/coffee/tania.coffee',
+          '<%= yeoman.app %>/scripts/florest.js': '<%= yeoman.app %>/coffee/florest.coffee'
         }
       }
     },
@@ -51,8 +51,9 @@ module.exports = function (grunt) {
         }
       },
       coffee: {
-        files: '<%= coffee.compile.files %>',
-        tasks: ['coffee']
+        files: '<%= yeoman.app %>/coffee/*.coffee',
+        tasks: ['coffee'],
+        livereload: true
       },
       jsTest: {
         files: ['test/spec/{,*/}*.js'],
@@ -69,7 +70,7 @@ module.exports = function (grunt) {
         options: {
           livereload: '<%= connect.options.livereload %>'
         },
-        files: ['<%= yeoman.app %>/**/*.{html,js,css,png,jpg,jpeg,gif,webp,svg}']
+        files: ['<%= yeoman.app %>/{*.*,**/*.*}']
       }
     },
 
@@ -91,7 +92,8 @@ module.exports = function (grunt) {
                 '/bower_components',
                 connect.static('./bower_components')
               ),
-              connect.static(appConfig.app)
+              connect.static(appConfig.app),
+              connect.static(appConfig.app + "/scripts")
             ];
           }
         }

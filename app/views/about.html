@@ -1,3 +1,5 @@
+<h1>{{ me.profissao }} {{ me.nome }}</h1>
+<p class="well">{{me.descricao}}</p>
 <ul>
-  <li ng-repeat="(tipo,contato) in formasContato">{{tipo}} : {{contato}}</li>
+  <li ng-repeat="(tipo,contato) in me.formasContato">{{tipo}} : {{contato}}</li>
 </ul>

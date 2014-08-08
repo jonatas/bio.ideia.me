@@ -6,6 +6,9 @@
     }).when('/about', {
       templateUrl: 'views/about.html',
       controller: 'AboutCtrl'
+    }).when('/contrate-me', {
+      templateUrl: 'views/contrate-me.html',
+      controller: 'MainCtrl'
     }).otherwise({
       redirectTo: '/'
     });

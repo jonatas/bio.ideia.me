@@ -11,16 +11,14 @@ angular
       .when '/',
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
-      .when '/about',
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+      .when '/contato',
+        templateUrl: 'views/contato.html',
+        controller: 'MainCtrl'
       .when '/contrate-me',
         templateUrl: 'views/contrate-me.html',
         controller: 'MainCtrl'
       .otherwise redirectTo: '/'
   .controller 'MainCtrl', ($scope) ->
-    $scope.aptidoes = Tania.aptidoes
-  .controller 'AboutCtrl', ($scope) ->
     $scope.me = Tania
 
-    
+

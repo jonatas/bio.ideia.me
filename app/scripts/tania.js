@@ -4,8 +4,9 @@
     profissao: "Biológa",
     formacao: "Bacharel em Biologia",
     descricao: "Bióloga, mãe do Lorenzo, apreciadora da natureza.",
-    formasContato: {
+    contato: {
       email: "biomascarello@gmail.com",
+      site: "bio.ideia.me",
       celular: "(46) 9901-1124",
       localizacao: "Francisco Beltrão - PR"
     },
@@ -17,7 +18,8 @@
       },
       "Levantamento fitossociológico das espécies": {
         icon: "flag",
-        desc: "Posso identificar as espécies de uma determinada área para você.",
+        desc: "Este levantamento visa estruturar o funcionamento e a dinâmica de uma determinada área.\nNeste estudo o espaço é avaliado em parcelas que visam delimitar uma unidade de estudo e dentro desta são avaliadas: \nDensidade, frequência, dominância, posição sociológica, regeneração natural e valor de importância.",
+        como_posso_ajudar: "Posso identificar as espécies de uma determinada área para você.\nTambém posso lhe ajudar a entender o ecosistema de determinada espécie, assim como lhe ajudar a escolher as melhores \nestratégias para cada espécie/família/ecosistema.\nUm aspecto importante deste trabalho se dá a relevância em termos da biodinâmica, que, quando aplicado a uma estratégia \ncomo a biofloresta é possível criar o aspecto de compensação e projetar a melhor forma de intercalar as plantas de forma \nque ajude a evitar pragas assim como permita que uma planta projeta a outra ou mesmo compense uma fraqueza do ambiente da planta.",
         preco: 120.00
       },
       "Recuperação de áreas degradadas": {

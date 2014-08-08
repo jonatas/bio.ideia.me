@@ -1,8 +1,12 @@
 
 <h1>Estou prestando serviços</h1>
 <p>Se você precisar de uma consultoria e implementação de projetos, posso lhe ajudar nas seguintes áreas:</p>
-<div  ng-repeat="(title,aptidao) in aptidoes">
-  <h3><span class="glyphicon glyphicon-{{aptidao.icon}}"></span> {{title}}</h3>
-  <span ng-if="aptidao.preco" class='badge alert-success'> <span class="glyphicon glyphicon-time"></span>R$ {{aptidao.preco}}</span>
+<div  ng-repeat="(title,aptidao) in me.aptidoes">
+  <span><span class="glyphicon glyphicon-{{aptidao.icon}}"></span> {{title}}</span>
+  <span ng-if="aptidao.preco" class='badge alert-success'>
+    <span class="glyphicon glyphicon-time"></span>R$ {{aptidao.preco}}</span>
 </div>
-
+<p class='alert-warning'>
+  <span class="glyphicon glyphicon-info" ></span>
+  Você pode observar que meu modelo de trabalho visa facilitar a prestação de serviço sendo fragmentado por hora e tendo um valor justo perante cada tipo de causa. Se você optar por um número maior de horas, entre em contato pelo email <a href="mailto:{{me.contato.email}}"> {{me.contato.email}}</a> e posso oferecer um desconto para pacotes mensais ou com mais de 100 horas/mês.
+</p>

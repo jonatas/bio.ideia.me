@@ -1,10 +1,10 @@
 <div class="row marketing">
-    <div  ng-repeat="(title,aptidao) in aptidoes">
+    <div  ng-repeat="(title,aptidao) in me.aptidoes">
       <h3><span class="glyphicon glyphicon-{{aptidao.icon}}"></span> {{title}}</h3>
       <div ng-if="aptidao.desc" class='well'>{{aptidao.desc}}</div>
       <blockquote ng-if="aptidao.reference" >
         <p>{{aptidao.reference.message}} </p>
-        <i>  {{aptidao.reference.source}} </i>
+        <i> {{aptidao.reference.source}}</i>
       </blockquote>
     </div>
 </div>

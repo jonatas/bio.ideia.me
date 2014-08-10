@@ -20,5 +20,9 @@ angular
       .otherwise redirectTo: '/'
   .controller 'MainCtrl', ($scope) ->
     $scope.me = Tania
+  .directive 'tooltip', ->
+    link: (scope, element, attrs) ->
+      $(element).hover (-> $(element).tooltip('show')), (->  $(element).tooltip('hide'))
 
-
+$(document).ready ->
+  $("[data-toggle=tooltip]").tooltip()

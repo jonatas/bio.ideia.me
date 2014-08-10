@@ -9,28 +9,27 @@
       this.canvas = canvas;
       this.ctx = this.canvas.getContext("2d");
       this.W = window.innerWidth;
-      this.H = window.innerHeight / 5;
+      this.H = window.innerHeight / 4;
       this.canvas.width = this.W;
       this.canvas.height = this.H;
       this.x = 0;
       this.numberOfTrees = numberOfTrees;
-      this.step = this.W / this.numberOfTrees * 0.5;
+      this.step = this.W / this.numberOfTrees * 0.63;
       this.init();
     }
 
     Florest.prototype.init = function(canvas) {
-      console.log("@x", this.x);
       if (this.x < this.numberOfTrees) {
         this.x += 1;
       } else {
         return;
       }
-      this.length = 12 + this.x * 2;
-      this.divergence = 15;
+      this.length = 25;
+      this.divergence = 12 * (1 + (this.x % 3));
       this.reduction = 0.8;
       this.line_width = 3;
       this.trunk = {
-        x: 10 + this.x * this.step,
+        x: this.x * this.step,
         y: this.length,
         angle: 90
       };
@@ -92,6 +91,6 @@
 
   canvas = document.getElementById("florest");
 
-  florest = new Florest(canvas, 12);
+  florest = new Florest(canvas, 4);
 
 }).call(this);

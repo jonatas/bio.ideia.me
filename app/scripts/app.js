@@ -14,6 +14,20 @@
     });
   }).controller('MainCtrl', function($scope) {
     return $scope.me = Tania;
+  }).directive('tooltip', function() {
+    return {
+      link: function(scope, element, attrs) {
+        return $(element).hover((function() {
+          return $(element).tooltip('show');
+        }), (function() {
+          return $(element).tooltip('hide');
+        }));
+      }
+    };
+  });
+
+  $(document).ready(function() {
+    return $("[data-toggle=tooltip]").tooltip();
   });
 
 }).call(this);

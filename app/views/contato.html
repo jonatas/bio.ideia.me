@@ -1,4 +1,6 @@
-<h1>{{ me.profissao }} {{ me.nome }}</h1>
+<h1>{{ me.nome }}
+<small><span class="glyphicon glyphicon-wrench"></span> {{ me.profissao }}</small>
+</h1>
 <p class="well">{{me.descricao}}</p>
 <ul>
   <li ng-repeat="(tipo,contato) in me.contato">{{tipo}} : {{contato}}</li>

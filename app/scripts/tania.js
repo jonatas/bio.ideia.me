@@ -8,13 +8,15 @@
       email: "biomascarello@gmail.com",
       site: "bio.ideia.me",
       celular: "(46) 9901-1124",
-      localizacao: "Francisco Beltrão - PR"
+      localizacao: "Francisco Beltrão - PR",
+      crbio: "75708/07-D"
     },
     aptidoes: {
       "Área verde": {
         icon: "tree-deciduous",
-        desc: "Posso lhe ajudar a construir sua área verde ou manter ela",
-        preco: 80.00
+        desc: "A área verde é um fragmento florestal obrigatório em loteamentos.",
+        preco: 80.00,
+        como_posso_ajudar: "Posso lhe ajudara escolher as melhores maneiras de manter a área verde assim como planejar uma."
       },
       "Levantamento fitossociológico das espécies": {
         icon: "flag",
@@ -24,10 +26,20 @@
       },
       "Recuperação de áreas degradadas": {
         icon: "repeat",
-        preco: 60.00
+        desc: "O objetivo de recuperar uma área e trazer toda  a sua \"função\" de volta, ou seja, fazer com que ela seja capaz de se desenvolver e reproduzir sozinha através de determinadas técnicas. Mas isso não significa que ela ira voltar exatamente igual ao estado anterior tudo irá depender do estado da degradação e da forma com que ela será recuperada.",
+        preco: 60.00,
+        reference: {
+          message: "Impacto ambiental é qualquer alteração das propriedades físicas, químicas e biológicas do meio ambiente, causada por qualquer forma de matéria ou energia resultante das atividades humanas que, direta ou indiretamente afetam:\n\n  I.   a saúde, a segurança e o bem-estar da população;\n  II.  as atividades sociais e econômicas;\n  III. a biota;\n  IV.  as condições estéticas e sanitárias do meio ambiente;\n  V.   a qualidade dos recursos ambientais.",
+          source: "Resolução Conama de 1986",
+          link: {
+            url: "http://www.matanativa.com.br/br/blog-do-inventario-florestal/entry/o-que-e-eia-rima-estudo-e-relatorio-de-impacto-ambiental",
+            title: "veja mais sobre EIA e RIMA."
+          }
+        }
       },
       "Escolha das espécies para revitalização": {
-        icon: "search"
+        icon: "search",
+        desc: "A escolha de uma determinada espécie pode interferir muito no ambiente em que vai ser plantada tanto no lado positivo quando no negativo. Vai depender muito na forma que ela vai ser \"usada\", se é para sombra, corredor ecológico, arborização urbana ou para jardinagem. "
       },
       "Agrofloresta": {
         icon: "tree-conifer",
@@ -42,8 +54,8 @@
         desc: "Arborização são elementos vegetais arbóreos dentro de uma cidade que auxiliam na limpeza e frescor do ar, sombra nas calçadas, embelezam e diminuem as ilhas de calor causadas em grandes centros pelo numero de veículos e edificações e podem atuar como atrativos e microambientes para pássaros e pequenos animais."
       },
       "Reciclagem": {
-        icon: "repeat",
-        desc: "Reciclagem: Pensamos logo nos 3 Rs  Reduzir, Reutilizar e Reciclar mas como e aonde?; Na sua casa, na sua empresa ou no seu trabalho. Reduzindo a quantidade de lixo produzida, reutilizando folhas de papel em branco e outros materiais que são descartados sem tem necessidade e dando novas definições e utilidade a materiais que possam ser reutilizados, como potes, vidro e aquelas latinhas de leite em pó que usamos uma por semana podem se tornar lindos objetos dentro de casa e muito funcionais. "
+        icon: "refresh",
+        desc: "Reciclagem: Pensamos logo nos 3 Rs  Reduzir, Reutilizar e Reciclar mas como e aonde?; Na sua casa, na sua empresa ou no seu trabalho. Reduzindo a quantidade de lixo produzida, reutilizando folhas de papel em branco e outros materiais que são descartados sem tem necessidade e dando novas definições e utilidade a materiais que possam ser reutilizados, como potes, vidro e aquelas latinhas de leite em pó que usamos uma por semana podem se tornar lindos objetos dentro de casa e muito funcionais."
       },
       "Educação Ambiental": {
         icon: "book",

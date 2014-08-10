@@ -5,6 +5,9 @@
       <blockquote ng-if="aptidao.reference" >
         <p>{{aptidao.reference.message}} </p>
         <i> {{aptidao.reference.source}}</i>
+        <p ng-if="aptidao.reference.link">
+          <a target="_blank" href="{{aptidao.reference.link.url}}">{{aptidao.reference.link.title}}</a>
+        </p>
       </blockquote>
     </div>
 </div>

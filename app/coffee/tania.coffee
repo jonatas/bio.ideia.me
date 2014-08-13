@@ -11,14 +11,27 @@ window.Tania =
     celular: "(46) 9901-1124"
     localizacao: "Francisco Beltrão - PR"
     crbio: "75708/07-D"
+  forma_de_trabalho: """
+   Estimar precisamente a data de entrega de um projeto ambiental é uma incerteza, pois no trabalho a campo dependemos da estabilidade do tempo.
+
+   Se este colaborar, podemos concluir apenas em algumas semanas, se não podem demorar meses.
+
+   Desta forma, acredito ser justo cobrar pelas horas efetivas trabalhadas ao invés de definir um valor fechado para o escopo do projeto.
+   
+   Este modelo de trabalho também é uma garantia para o contratante pois este tem a oportunidade de acompanhar passo a passo do andamento do projeto.
+   
+   Então contratando um pequeno número de horas já é possível experimentar a qualidade do serviço.
+  """
   aptidoes:
 
     "Área verde":
       icon: "tree-deciduous"
-      desc: "A área verde é um fragmento florestal obrigatório em loteamentos."
+      desc: """
+       É um espaço com predomínio de vegetação, que pode ser para preservação da mata existente, serve para aclimatação do ambiente ou pode ser algum tipo de parque para recreação, Jardim botânico ou zoológico.
+      """
       preco: 80.00
       como_posso_ajudar: """
-        Posso lhe ajudara escolher as melhores maneiras de manter a área verde assim como planejar uma.
+        Se já existe algum tipo de fragmento florestal, posso ajudar recuperando e deixando-o mais verde ou podemos juntos escolher espécies para formar uma desejada área adaptada para o local.
       """
 
     "Levantamento fitossociológico das espécies":
@@ -58,6 +71,10 @@ window.Tania =
         link: 
           url: "http://www.matanativa.com.br/br/blog-do-inventario-florestal/entry/o-que-e-eia-rima-estudo-e-relatorio-de-impacto-ambiental"
           title: "veja mais sobre EIA e RIMA."
+      como_posso_ajudar: """
+        Depois de um levantamento da situação da área degradada podemos definir que tipo de trabalho e técnica iremos utilizar,
+        bem como o tempo de recuperação e para que fim a área vai ser recuperada.
+      """
 
     "Escolha das espécies para revitalização":
       icon: "search"
@@ -67,8 +84,16 @@ window.Tania =
 
     "Agrofloresta":
       icon: "tree-conifer"
-      desc: "Agrofloresta é a  ligação/ integração da agricultura, floresta e o homem.  Onde o cultivo agrícola é integrado com a floresta e ambos crescem juntos um dando suporte ao outro até se tornarem plantas adultas reproduzindo e fornecendo alimento ao homem e tudo a sua volta."
+      desc: " A agrofloresta é o manejo que integra a agricultura, a floresta e o ser humano. As plantas agrícolas convivem com as florestais num caminho rumo à complexidade, com qualidade e quantidade de vida consolidada com todas as inter-relações possíveis."
+      reference:
+        message: """
+        A estratégia do planeta Terra é a Vida!
 
+        A agrofloresta é uma tentativa de harmonizar as atividades da agricultura com os processos naturais da vida existentes em cada lugar em que atuamos. Representa grande potencial para as regiões tropicais, naturalmente ricas em biodiversidade, por proteger os solos das intensas chuvas e da insolação direta.
+        """
+        link: 
+          url: "http://www.fazendasaoluiz.com/"
+          title: "Fazenda São Luiz"
     "Horta orgânica":
       icon: "leaf"
       desc: "Horta Orgânica: você pode ter a sua horta orgânica no quintal de casa ou então pra quem mora em apartamento na sua própria sacada, com vasos de diferentes tamanhos e várias espécies de hortaliças, chás, temperos e o que quiser ter é só dedicar-se e ter paciência para seguir todos os passos."
@@ -76,6 +101,7 @@ window.Tania =
     "Arborização Urbana":
       icon: "cloud"
       desc: "Arborização são elementos vegetais arbóreos dentro de uma cidade que auxiliam na limpeza e frescor do ar, sombra nas calçadas, embelezam e diminuem as ilhas de calor causadas em grandes centros pelo numero de veículos e edificações e podem atuar como atrativos e microambientes para pássaros e pequenos animais."
+      como_posso_ajudar: "Auxiliando na escolha das espécies a serem plantadas nas calçadas, parques, canteiros de avenidas, estacionamentos, passeios e canteiros de esquinas. Tipos de podas e forma de plantio."
 
     "Reciclagem":
       icon: "refresh"

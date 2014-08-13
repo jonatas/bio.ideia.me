@@ -3,8 +3,8 @@
 <p>Se você precisar de uma consultoria e implementação de projetos que envolvam acessoria na área da biologia, posso lhe ajudar nas seguintes áreas:</p>
 <div  ng-repeat="(title,aptidao) in me.aptidoes">
   <span><span class="glyphicon glyphicon-{{aptidao.icon}}"></span> {{title}}</span>
-  <span ng-if="aptidao.preco" class='badge alert-success' data-toggle="tooltip" data-placement="bottom" title="{{aptidao.como_posso_ajudar}}" tooltip>
-    <span class="glyphicon glyphicon-time"></span>R$ {{aptidao.preco}}</span>
+  <span class='badge alert-success' data-toggle="tooltip" data-placement="bottom" title="{{aptidao.como_posso_ajudar}}" tooltip>
+    <span class="glyphicon glyphicon-time"></span> R$ {{aptidao.preco || me.valor_hora_padrao }}</span>
 </div>
 
 <p class='alert-warning'>

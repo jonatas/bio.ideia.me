@@ -23,6 +23,31 @@ module.exports = function (grunt) {
 
   // Define the configuration for all the tasks
   grunt.initConfig({
+    sshconfig: {
+      server: {
+        host: 'ideia.me',
+        username: 'jonatas',
+        agent: process.env.SSH_AUTH_SOCK
+      }, 
+      sshexec:{
+        deploy: {
+           command: [ 
+             'cd /tmp',
+             'git clone /code/bio.ideia.me.git',
+             'cd bio.ideia.me',
+             'grunt build '
+           ].join(' && '),
+           options: { config: 'server' },
+        }
+      }
+    },
+    shell: {
+      greet: {
+        command: function (greeting) {
+          return 'echo ' + greeting;
+        }
+      }
+    },
 
     // Project settings
     yeoman: appConfig,
@@ -457,4 +482,7 @@ module.exports = function (grunt) {
   ]);
 
   grunt.loadNpmTasks('grunt-contrib-coffee');
+  grunt.registerTask('deploy', [ 'sshexec:deploy' ]);
+  grunt.loadNpmTasks('grunt-ssh');
+  grunt.loadNpmTasks('grunt-shell');
 };

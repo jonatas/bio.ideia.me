@@ -5,6 +5,7 @@ window.Tania =
   descricao: """
     Bióloga, mãe do Lorenzo, apreciadora da natureza.
   """
+  valor_hora_padrao: "60,00"
   contato:
     email: "biomascarello@gmail.com"
     site: "bio.ideia.me"
@@ -29,7 +30,6 @@ window.Tania =
       desc: """
        É um espaço com predomínio de vegetação, que pode ser para preservação da mata existente, serve para aclimatação do ambiente ou pode ser algum tipo de parque para recreação, Jardim botânico ou zoológico.
       """
-      preco: 80.00
       como_posso_ajudar: """
         Se já existe algum tipo de fragmento florestal, posso ajudar recuperando e deixando-o mais verde ou podemos juntos escolher espécies para formar uma desejada área adaptada para o local.
       """
@@ -49,14 +49,13 @@ window.Tania =
           como a biofloresta é possível criar o aspecto de compensação e projetar a melhor forma de intercalar as plantas de forma 
           que ajude a evitar pragas assim como permita que uma planta projeta a outra ou mesmo compense uma fraqueza do ambiente da planta.
       """
-      preco: 120.00
+      preco: 80.00
 
     "Recuperação de áreas degradadas":
       icon: "repeat"
       desc: """
       O objetivo de recuperar uma área e trazer toda  a sua "função" de volta, ou seja, fazer com que ela seja capaz de se desenvolver e reproduzir sozinha através de determinadas técnicas. Mas isso não significa que ela ira voltar exatamente igual ao estado anterior tudo irá depender do estado da degradação e da forma com que ela será recuperada.
       """
-      preco: 60.00
       reference:
         message: """
       Impacto ambiental é qualquer alteração das propriedades físicas, químicas e biológicas do meio ambiente, causada por qualquer forma de matéria ou energia resultante das atividades humanas que, direta ou indiretamente afetam:

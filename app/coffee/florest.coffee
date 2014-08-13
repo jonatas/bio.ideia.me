@@ -74,8 +74,7 @@ class Florest
       @treeNumber += 1
     else
       return
-
-    new Tree(@, length: 5*@numberOfTrees, divergence: 15 * (1+(@treeNumber % 4)), reduction: 0.8, line_width: 2+@treeNumber
+    new Tree(@, length: 5*@numberOfTrees, divergence: 15 * (1+(@treeNumber % 4)), reduction: 0.8, line_width: 2+@treeNumber)
 
 
 

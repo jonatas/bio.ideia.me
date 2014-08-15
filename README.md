@@ -5,6 +5,7 @@ O site é dividido em:
 * [app.coffee](app/coffee/app.coffee) arquivo principal da programação
 * [tania.coffee](app/coffee/tania.coffee) dados da Tânia.
 * [florest.coffee](app/coffee/florest.coffee) animação do rodapé da página
+* [app/views](app/views/) ficam as templates de cada parte específica (contato e contrate-me)
 
 # Instalando dependências
 

@@ -54,23 +54,9 @@ module.exports = function (grunt) {
         exclude: [".git*","*.scss","node_modules"],
         recursive: true
       },
-      dist: {
-        options: {
-          src: '<%= yeoman.dist %>',
-          dest: "../dist"
-        }
-      },
-      stage: {
-        options: {
-          src: "../dist/",
-          dest: "/var/www/sites/stage.bio.ideia.me",
-          host: "jonatas@ideia.me",
-          //delete: true // Careful this option could cause data loss, read the docs!
-        }
-      },
       prod: {
         options: {
-          src: "../dist/",
+          src: "./dist/",
           dest: "/var/www/sites/bio.ideia.me",
           host: "jonatas@ideia.me",
           //delete: true // Careful this option could cause data loss, read the docs!

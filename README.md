@@ -31,10 +31,8 @@ Instalar o npm + bower + yeoman e o grunt.
 
     grunt deploy
 
-Para fazer o deploy é necessário configurar o usuário e host.
+Para fazer o deploy é necessário configurar o usuário e host corretamente.
 
-    Se você clonar e usar como exemplo não esqueça de alterar os dados do usuário e host no [Gruntfile.js][Gruntfile.js].
+Se você clonar e usar como exemplo não esqueça de alterar os dados do usuário e host no [Gruntfile.js](Gruntfile.js).
 
-
-
-Desenvolvido por @jonatas. [ideia.me](http://ideia.me) eu [invent.to](http://invent.to).
+Desenvolvido por [@jonatas](http://github.com/jonatas). [ideia.me](http://ideia.me) eu [invent.to](http://invent.to).

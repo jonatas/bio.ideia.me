@@ -2,9 +2,9 @@
 
 O site é dividido em:
 
-* [app/coffee/app.coffee][] arquivo principal da programação
-* [app/coffee/tania.coffee][] dados da Tânia.
-* [app/coffee/florest.coffee][] animação do rodapé da página
+* [app.coffee](app/coffee/app.coffee) arquivo principal da programação
+* [tania.coffee](app/coffee/tania.coffee) dados da Tânia.
+* [florest.coffee](app/coffee/florest.coffee) animação do rodapé da página
 
 # Instalando dependências
 
@@ -32,8 +32,8 @@ Instalar o npm + bower + yeoman e o grunt.
 
 Para fazer o deploy é necessário configurar o usuário e host.
 
-    Se você clonar e usar como exemplo não esqueça de alterar os dados do usuário e host no [Gruntfile.js][].
+    Se você clonar e usar como exemplo não esqueça de alterar os dados do usuário e host no [Gruntfile.js][Gruntfile.js].
 
 
 
-Desenvolvido por @jonatas. [ideia.me][] eu [invent.to][].
+Desenvolvido por @jonatas. [ideia.me](http://ideia.me) eu [invent.to](http://invent.to).

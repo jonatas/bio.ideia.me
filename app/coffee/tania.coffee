@@ -10,10 +10,10 @@ window.Tania =
     email: "biomascarello@gmail.com"
     site: "bio.ideia.me"
     celular: "(46) 9901-1124"
-    localizacao: "Francisco Beltrão - PR"
+    localizacao: "Francisco \"Beltrão\" - PR"
     crbio: "75708/07-D"
   forma_de_trabalho: """
-   Estimar precisamente a data de entrega de um projeto ambiental é uma incerteza, pois no trabalho a campo dependemos da estabilidade do tempo.
+    Estimar precisamente a data de entrega de um projeto ambiental é uma incerteza, pois no trabalho a campo dependemos da estabilidade do tempo.
 
    Se este colaborar, podemos concluir apenas em algumas semanas, se não podem demorar meses.
 
@@ -26,9 +26,11 @@ window.Tania =
   aptidoes:
 
     "Área verde":
+      ordem: 1
       icon: "tree-deciduous"
       desc: """
-       É um espaço com predomínio de vegetação, que pode ser para preservação da mata existente, serve para aclimatação do ambiente ou pode ser algum tipo de parque para recreação, Jardim botânico ou zoológico.
+        Área Verde: é um espaço com predomínio de vegetação podendo ser para preservação da mata já existente ou para criação de uma, tem como objetivo a aclimatação do 
+        ambiente preservação de fauna e flora. Uma área verde não é só uma ilha  cheia de árvores, ela pode ser algum tipo de parque, Jardim botânico ou zoológico.
       """
       como_posso_ajudar: """
         Se já existe algum tipo de fragmento florestal, posso ajudar recuperando e deixando-o mais verde ou podemos juntos escolher espécies para formar uma desejada área adaptada para o local.

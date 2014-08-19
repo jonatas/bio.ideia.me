@@ -17,7 +17,7 @@ window.Tania =
 
    Se este colaborar, podemos concluir apenas em algumas semanas, se não podem demorar meses.
 
-   Desta forma, acredito ser justo cobrar pelas horas efetivas trabalhadas ao invés de definir um valor fechado para o escopo do projeto.
+   Desta forma, acredito ser justa cobrar pelas horas efetivas trabalhadas ao invés de definir um valor fechado para o escopo do projeto.
    
    Este modelo de trabalho também é uma garantia para o contratante pois este tem a oportunidade de acompanhar passo a passo do andamento do projeto.
    
@@ -43,20 +43,13 @@ window.Tania =
         Neste estudo o espaço é avaliado em parcelas que visam delimitar uma unidade de estudo e dentro desta são avaliadas: 
         Densidade, frequência, dominância, posição sociológica, regeneração natural e valor de importância.
       """
-      como_posso_ajudar: """
-          Posso identificar as espécies de uma determinada área para você.
-          Também posso lhe ajudar a entender o ecosistema de determinada espécie, assim como lhe ajudar a escolher as melhores 
-          estratégias para cada espécie/família/ecosistema.
-          Um aspecto importante deste trabalho se dá a relevância em termos da biodinâmica, que, quando aplicado a uma estratégia 
-          como a biofloresta é possível criar o aspecto de compensação e projetar a melhor forma de intercalar as plantas de forma 
-          que ajude a evitar pragas assim como permita que uma planta projeta a outra ou mesmo compense uma fraqueza do ambiente da planta.
-      """
+  
       preco: 80.00
 
     "Recuperação de áreas degradadas":
       icon: "repeat"
       desc: """
-      O objetivo de recuperar uma área e trazer toda  a sua "função" de volta, ou seja, fazer com que ela seja capaz de se desenvolver e reproduzir sozinha através de determinadas técnicas. Mas isso não significa que ela ira voltar exatamente igual ao estado anterior tudo irá depender do estado da degradação e da forma com que ela será recuperada.
+      O objetivo de recuperar uma área e trazer toda  a sua "função" de volta, ou seja, fazer com que ela seja capaz de se desenvolver e reproduzir sozinha através de determinadas técnicas. Mas isso não significa que ela ira voltar exatamente ao seu estado anterior tudo irá depender do estado da degradação e da forma com que ela será recuperada.
       """
       reference:
         message: """
@@ -80,7 +73,7 @@ window.Tania =
     "Escolha das espécies para revitalização":
       icon: "search"
       desc: """
-      A escolha de uma determinada espécie pode interferir muito no ambiente em que vai ser plantada tanto no lado positivo quando no negativo. Vai depender muito na forma que ela vai ser "usada", se é para sombra, corredor ecológico, arborização urbana ou para jardinagem. 
+      A escolha de uma determinada espécie pode interferir muito no ambiente em que vai ser plantada auxiliando melhor o desenvolvimento do local ou arruinando tudo, então depende muito na forma que ela vai ser "usada", se é para sombra, corredor ecológico, arborização urbana ou para jardinagem. 
       """
 
     "Agrofloresta":
@@ -97,11 +90,12 @@ window.Tania =
           title: "Fazenda São Luiz"
     "Horta orgânica":
       icon: "leaf"
-      desc: "Horta Orgânica: você pode ter a sua horta orgânica no quintal de casa ou então pra quem mora em apartamento na sua própria sacada, com vasos de diferentes tamanhos e várias espécies de hortaliças, chás, temperos e o que quiser ter é só dedicar-se e ter paciência para seguir todos os passos."
+      desc: "você pode ter a sua horta orgânica no quintal de casa, na janela da cozinha ou para quem mora em apartamento na sua própria sacada, com vasos de diferentes tamanhos e com várias espécies de hortaliças, chás, temperos e o que quiser ter é só dedicar-se e ter paciência para seguir todos os passos.''
+
 
     "Arborização Urbana":
       icon: "cloud"
-      desc: "Arborização são elementos vegetais arbóreos dentro de uma cidade que auxiliam na limpeza e frescor do ar, sombra nas calçadas, embelezam e diminuem as ilhas de calor causadas em grandes centros pelo numero de veículos e edificações e podem atuar como atrativos e microambientes para pássaros e pequenos animais."
+      desc: "Nada mais é do que elementos vegetais arbóreos dentro de uma cidade que auxiliam na limpeza e frescor do ar, fornecem sombra nas calçadas, embelezam e diminuem as ilhas de calor causadas em grandes centros pelo numero de veículos e edificações e podem atuar como atrativos e microambientes para pássaros e pequenos animais."
       como_posso_ajudar: "Auxiliando na escolha das espécies a serem plantadas nas calçadas, parques, canteiros de avenidas, estacionamentos, passeios e canteiros de esquinas. Tipos de podas e forma de plantio."
 
     "Reciclagem":
